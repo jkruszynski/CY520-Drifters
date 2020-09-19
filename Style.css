@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 19, 2020, 2:04:51 PM
+    Author     : naperer1s
+*/
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin-top: 10px;
+  margin-left:  50px;
+  font-family: Arial;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+   padding-left: 50px;
+   padding-right: 50px;
+   
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  text-align: center;
+  padding: auto;
+ 
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+
+.column2 {
+  float: left;
+  width: 40%;
+  margin-left:10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+   .container
+   {
+       
+       width: 40%;
+       
+   }
